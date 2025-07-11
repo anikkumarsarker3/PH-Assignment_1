@@ -147,39 +147,24 @@ header {
 .focus-dv {
     text-align: center;
 }
-
 .msg {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 95px 150px;
-    justify-items: center;
 }
-
-.msg-box {}
-
-.single-msg {
-    margin: 0 auto;
-    height: 45px;
-    width: 500px;
+.sec-msg{
+    margin: 92px 150px;
 }
-
-.single-msg input {
-    width: 232px;
-    justify-content: flex-end;
-}
-
 .msg-title {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bold;
     align-items: center;
-}
+    width: 528px;
 
+}
 .msg-box button {
-    margin-top: 50px;
     width: 240px;
 }
-
 .foot {
     padding: 103px 455px;
 
@@ -199,6 +184,8 @@ footer {
 .foot-title {
     text-align: center;
     max-width: 450px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .foot-title h1 {
