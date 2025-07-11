@@ -1,30 +1,35 @@
-body{
+body {
     background-color: #F4F7FF;
 }
+
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-header{
-background-image: url(Assets/Hero-bg.png);
-margin: 0 auto;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-max-height: 700px;
-max-width: 1440px;
-text-align: center;
+
+header {
+    background-image: url(Assets/Hero-bg.png);
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 700px;
+    max-width: 1440px;
+    text-align: center;
 }
-.pad-button{
+
+.pad-button {
     margin-bottom: 154px;
 }
-.logo{
+
+.logo {
     color: #4E47FF;
     font-weight: bold;
     font-size: 35px;
 }
-.button-style{
+
+.button-style {
     background-color: #4E47FF;
     padding: 12px 36px;
     color: #FFFFFF;
@@ -34,14 +39,16 @@ text-align: center;
     height: 48px;
     border: none;
 }
-.nav-title{
+
+.nav-title {
     display: flex;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
 }
-.second{
+
+.second {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
@@ -49,72 +56,85 @@ text-align: center;
     margin: 150px auto;
 
 }
-.sec-action{
+
+.sec-action {
     margin: 116px 160px;
 }
-.act-first{
-    height: 203px ;
-    width: 500px ;
+
+.act-first {
+    height: 203px;
+    width: 500px;
 }
-.action-description{
+
+.action-description {
     font-size: 24px;
     color: #252432;
 }
-.action-title{
+
+.action-title {
     font-size: 42px;
     font-weight: bold;
 }
-.action{
+
+.action {
     display: flex;
     justify-content: space-between;
 }
-.user-title{
+
+.user-title {
     font-size: 38px;
     font-weight: bold;
 }
-.sec-user{
+
+.sec-user {
     text-align: center;
     margin: 116px 141px;
     background-color: #d4d3e7;
     padding: 50px 142px;
     border-radius: 10px;
 }
-.user-body{
+
+.user-body {
     display: flex;
     justify-content: space-around;
-    
-    
+
+
 }
-.user-action-h1{
-    color: #4E47FF ;
+
+.user-action-h1 {
+    color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
 }
+
 /* .user-action-p{
     
 } */
-.user-action{
+.user-action {
     align-items: center;
 }
 
 
 /* sesh section action motamuti */
 
-.focus-h1{
+.focus-h1 {
     font-size: 50px;
     font-weight: bold;
 }
-.focus{
+
+.focus {
     text-align: center;
     margin: 0 auto;
 }
-.focus-img{
+
+.focus-img {
     max-width: 850px;
     height: 365px;
     border-radius: 48px;
     margin-top: 20px;
 }
-.sec-focus{
+
+.sec-focus {
     background-color: #FFFFFF;
     padding: 71px 150px;
     margin-bottom: 151px;
@@ -123,51 +143,117 @@ text-align: center;
     text-align: center;
     justify-items: center;
 }
-.focus-dv{
+
+.focus-dv {
     text-align: center;
 }
-.msg{
+
+.msg {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 95px 150px;
     justify-items: center;
 }
-.msg-box{
-    
-}
-.single-msg{
+
+.msg-box {}
+
+.single-msg {
     margin: 0 auto;
     height: 45px;
     width: 500px;
 }
-.single-msg input{
+
+.single-msg input {
     width: 232px;
     justify-content: flex-end;
 }
-.msg-title{
+
+.msg-title {
     font-size: 48px;
     font-weight: bold;
     align-items: center;
 }
-.msg-box button{
+
+.msg-box button {
     margin-top: 50px;
     width: 240px;
 }
-.foot{
-    text-align: center;
-     margin: 104px 455px;
+
+.foot {
+    padding: 103px 455px;
+
 }
-.foot-last{
+
+.foot-last {
     display: flex;
     justify-content: center;
     gap: 48px;
+    color: #8987A1;
 }
-footer{
-    max-width: 1440px;
-    max-height: 428px;
+
+footer {
     background-color: #FFFFFF;
-    margin: 0 auto;
-    padding: 30px 100px;
-   
+}
+
+.foot-title {
+    text-align: center;
+    max-width: 450px;
+}
+
+.foot-title h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.foot-title p {
+    font-size: 14px;
+    color: #8987A1;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.review-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.review-date {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+.review h1{
+    text-align: center;
+    margin-bottom: 50px;
 }
