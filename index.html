@@ -8,52 +8,59 @@
         rel="stylesheet">
     <link rel="stylesheet" href="final.css">
     <title>Web assignment_1</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="raleway-normal">
-    <header>
+    <header
+        class="bg-[url('Assets/Hero-bg.png')] mx-auto bg-cover bg-center bg-no-repeat  max-w-[1440px] text-center">
         <nav>
-            <div class="nav-title">
+            <div class="flex justify-between items-center px-8">
                 <h2 class="logo">LOGO</h2>
-                <button class="button-style">Sign Up</button>
+                <button class="bg-[#4E47FF] px-9 py-3 text-white font-bold text-base rounded-[10px] border-0 transition-colors hover:bg-[#4d4c5f] cursor-pointer">Sign Up</button>
             </div>
         </nav>
-        <div class="second">
-            <h2>Cool Dark UI Template for Webflow Agencies!</h2>
-            <button class="button-style pad-button">Stay Focused</button>
+        <div class="text-center text-base sm:text-3xl md:text-5xl font-bold my-[150px] mx-auto">
+            <h2>Cool Dark UI Template for Webflow <br> Agencies!</h2>
+            <button class="bg-[#4E47FF] px-9 py-3 text-white font-bold text-base rounded-[10px]  border-0 transition-colors hover:bg-[#4d4c5f] cursor-pointer">Stay Focused</button>
         </div>
 
     </header>
-    <main>
-        <section class="sec-action">
-            <div class="action">
-                <div class="act-first">
+    <main class="max-w-[1440px] m-auto">
+
+        <section class="m-auto">
+            <div class="mx-auto flex flex-col-reverse sm:flex-row justify-around items-center">
+                <div class="text-center sm:text-left">
                     <h2 class="action-title">See It in Action</h2>
-                    <p class="action-description">Explore the live preview and imagine your brand in this bold new look.
+                    <p class="action-description">Explore the live preview and imagine your brand in <br> this bold new look.
                     </p>
-                    <button class="button-style">Launch Live Preview</button>
+                    <button class="bg-[#4E47FF] px-9 py-3 text-white font-bold text-base rounded-[10px]  border-0 transition-colors hover:bg-[#4d4c5f] cursor-pointer">Launch Live Preview</button>
                 </div>
-                <div>
+                <div class="">
                     <img src="Assets/wc-mini.png" alt="">
                 </div>
             </div>
-
         </section>
-        <section class="sec-user">
-            <div class="user">
-                <h2 class="user-title">Joined Thousands of Productive Users</h2>
-                <div class="user-body">
+
+
+
+        <section class="text-center my-[116px] bg-[#d4d3e7] py-[50px] px-[142px] rounded-[10px]">
+            <div>
+                <h2 class="text-lg sm:text-[38px] font-bold mb-10">Joined Thousands of Productive Users</h2>
+                <div class="flex justify-around flex-col md:flex-row text-center">
+
                     <div class="user-action">
-                        <h1 class="user-action-h1">50K</h1>
+                        <h1 class="text-[#4E47FF] text-2xl sm:text-[80px] font-bold m-0 text-center">50K</h1>
                         <div class="user-action-p">Active Users</div>
-                        
+
                     </div>
                     <div class="user-action">
-                        <h1 class="user-action-h1">2M+</h1>
+                        <h1 class="text-[#4E47FF] text-2xl sm:text-[80px] font-bold m-0 text-center">2M+</h1>
                         <p class="user-action-p">Focus Sessions</p>
                     </div>
                     <div class="user-action">
-                        <h1 class="user-action-h1">95%</h1>
+                        <h1 class="text-[#4E47FF] text-2xl sm:text-[80px] font-bold m-0 text-center">95%</h1>
                         <p class="user-action-p">Satisfaction Rate</p>
                     </div>
                 </div>
@@ -61,11 +68,11 @@
         </section>
 
         <section class="review">
-            <h1>What our users say</h1>
+            <h1 class="text-lg sm:text-[38px] font-bold mb-10" >What our users say</h1>
             <div class="reviews">
                 <!-- Card 1 -->
                 <div class="card">
-                    <div class="stars">
+                    <div class="flex">
                         <img src="Assets/icon-star.png" alt="">
                         <img src="Assets/icon-star.png" alt="">
                         <img src="Assets/icon-star.png" alt="">
@@ -84,7 +91,7 @@
 
                 <!-- Card 2 -->
                 <div class="card">
-                    <div class="stars">
+                    <div class="flex">
                         <img src="Assets/icon-star.png" alt="">
                         <img src="Assets/icon-star.png" alt="">
                         <img src="Assets/icon-star.png" alt="">
@@ -103,7 +110,7 @@
 
                 <!-- Card 3 -->
                 <div class="card">
-                    <div class="stars">
+                    <div class="flex">
                         <img src="Assets/icon-star.png" alt="">
                         <img src="Assets/icon-star.png" alt="">
                         <img src="Assets/icon-star.png" alt="">
@@ -123,20 +130,20 @@
         </section>
 
 
-        <section class="sec-focus">
-            <div class="focus">
-                <h1 class="focus-h1">Ready to focus better</h1>
-                <p class="focus-p">This template instantly leveled up our presence.” – Studio Vertex</p>
-                <button class="button-style">Ger Started Free </button>
+        <section class="text-center">
+            <div class="">
+                <h1 class="text-lg sm:text-[38px] font-bold mb-2">Ready to focus better</h1>
+                <p class="text-lg m-2 sm:text-3xl">This template instantly leveled up our presence.” – Studio Vertex</p>
+                <button class="bg-[#4E47FF] px-9 py-3 text-white font-bold text-base rounded-[10px]  border-0 transition-colors hover:bg-[#4d4c5f] cursor-pointer mb-7">Ger Started Free </button>
             </div>
-            <div class="focus-dv">
-                <img class="focus-img" src="Assets/wc-big.png" alt="">
+            <div class="p-4">
+                <img class="mx-auto" src="Assets/wc-big.png" alt="">
             </div>
         </section>
-        <section class="sec-msg">
-            <div class="msg">
-                <div class="msg-title">
-                    <h1>Let’s Get in Touch</h1>
+        <section class="">
+            <div class="flex justify-center items-center flex-col md:flex-row text-center md:text-left gap-4">
+                <div class="text-5xl font-extrabold">
+                    <h1>Let’s Get in <br> Touch</h1>
                 </div>
 
                 <div class="msg-box">
@@ -153,7 +160,7 @@
                         <label for="">Message</label><br>
                         <textarea name="" id="" cols="30" rows="4" placeholder="write your message...."></textarea>
                     </div>
-                    <button class="button-style btn">Get in Touch</button>
+                    <button class="bg-[#4E47FF] px-9 py-3 text-white font-bold text-base rounded-[10px]  border-0 transition-colors hover:bg-[#4d4c5f] cursor-pointer">Get in Touch</button>
                     <!-- <button type="submit" class="button-style btn submit-btn" class=">Get in Touch</button> -->
                 </div>
 
@@ -162,7 +169,7 @@
 
     </main>
     <footer>
-        <div class="foot">
+        <div class="mt-[150px]">
             <div class="foot-title">
                 <h1>LOGO</h1>
                 <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how
